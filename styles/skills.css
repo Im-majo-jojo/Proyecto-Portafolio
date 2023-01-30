@@ -6,6 +6,7 @@
     background-color: rgb(247, 247, 247);
     display: flex;
     flex-wrap: wrap;
+    padding: 110px 40px 130px;
 }
 .title-section{
     font-family: 'Poiret One', cursive;
@@ -26,17 +27,14 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 1px solid #aeaeb1;
+    border: 1px solid #d1d1d4;
     border-radius: 8px;
     background-color:white;
     padding: 25px;
     margin: 10px;
     width: 260px;  
-    justify-content: center;   
-}
-.grid-buttons p{
-    font-size: 30px;
-    font-weight: bold;
+    height: 200px;
+    justify-content: space-evenly;   
 }
 .grid-container{
     display: flex;
@@ -47,68 +45,15 @@
     font-size: 2.7em;
     display: block;
 }
-/*.habilities{
-    padding: 150px 60px 130px;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(229, 230, 231);
-  }
-.tools-description-text{
-   display: flex;
-   flex-direction: column;
-   color: #000000;
-}
-.tools-description-text p{
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
- }
- .description-of-section{
-    margin: 19px 0;
-}
-.title-section{
-    font-weight: bolder;
-    font-size: 45px;
-    color: #000000;
-    margin-bottom: 30px;
+.tool-name {
+    font-size: 1.25em;
     font-weight: 700;
 }
-/*grid icons*/
-/*.grid-container{
-    display: flex;
-    justify-content: center;
-}
-.big-buttons-for-skills{
-    display: grid;
-    margin: 50px 0;  
-    grid-template-columns: 1fr 1fr 1fr;     
-}
-.grid-buttons{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #aeaeb1;
-    border-radius: 8px;
-    background-color:white;
-    padding: 25px;
-    margin: 10px;
-    width: 260px; 
-    height: 230px;    
-}
-.grid-buttons:not(.icon):hover {
+.grid-buttons:not(i):hover {
     border: 1px solid  #13151ca2;
-    color: #13151ca2;
+    color: #aeaeb1;
 }
-.tool-name{
-    font-size: 20px;
-    font-weight: bold;   
-}
-i{
-   align-self: center;
-   margin: 20px 0;
-}
-.grid-buttons p{
-    margin:5px 0;
-}*/
+/* media queries*/
 @media (max-width: 350px) {
     .colored {
     font-size: 2.5em;
@@ -124,20 +69,26 @@ i{
 }
 @media (min-width: 580px) {
     .grid-buttons{
-        margin: 0.5px;
+        margin: 10px;
         padding: 10px;
     }
     .colored {
-        font-size: 3em;
+        font-size: 2.5em;
+    }
+    .tool-name{
+        font-size: 1em;
     }
 }
 @media (max-width: 900px){
     .grid-buttons{
-        margin: 5px;
+        margin: 10px;
         padding: 10px;
     }
+    .tool-name{
+        font-size: 1em;
+    }
     .colored {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 }
 @media (min-width: 900px){
@@ -145,8 +96,11 @@ i{
         max-width: 1000px;
     }
     .grid-buttons{
-        margin: 5px;
-        padding: 10px;
+        margin: 10px;
+        padding: 20px;
+    }
+    .tool-name{
+        font-size: 1em;
     }
     .colored {
         font-size: 3em;
