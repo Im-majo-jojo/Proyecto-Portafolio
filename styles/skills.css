@@ -1,0 +1,78 @@
+.habilities {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px 60px 130px;
+}
+.tools-description-text{
+    
+}
+
+/*.habilities{
+    padding: 150px 60px 130px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(229, 230, 231);
+  }
+.tools-description-text{
+   display: flex;
+   flex-direction: column;
+   color: #000000;
+}
+.tools-description-text p{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+ }
+ .description-of-section{
+    margin: 19px 0;
+}
+.title-section{
+    font-weight: bolder;
+    font-size: 45px;
+    color: #000000;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+/*grid icons*/
+/*.grid-container{
+    display: flex;
+    justify-content: center;
+}
+.big-buttons-for-skills{
+    display: grid;
+    margin: 50px 0;  
+    grid-template-columns: 1fr 1fr 1fr;     
+}
+.grid-buttons{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aeaeb1;
+    border-radius: 8px;
+    background-color:white;
+    padding: 25px;
+    margin: 10px;
+    width: 260px; 
+    height: 230px;    
+}
+.grid-buttons:not(.icon):hover {
+    border: 1px solid  #13151ca2;
+    color: #13151ca2;
+}
+.tool-name{
+    font-size: 20px;
+    font-weight: bold;   
+}
+i{
+   align-self: center;
+   margin: 20px 0;
+}
+.grid-buttons p{
+    margin:5px 0;
+}*/
+@media (min-width: 350px) {
+
+}
+@media (max-width: 900px) {
+
+}
