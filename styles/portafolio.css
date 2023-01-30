@@ -1,7 +1,7 @@
  *{
     margin: 0;
     padding: 0;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
  body{
@@ -14,8 +14,8 @@
     padding: 25px 0;
     position: fixed;
     width: 100%;
-    z-index: 1;
     top: 0;
+    visibility: hidden;
 }
  .div-nav{
     width: 100%;
@@ -55,58 +55,7 @@
 }
   /* header and nav bar ends*/
   /* about section*/
-.presentation h5{
-    margin-top: 100px;
-    font-size: 30px;
-    font-weight: 500;
-}
-h1{
-    color: #13151c;
-    font-size: 40px;
-    font-weight: 900; 
-    font-family: 'Poiret One', cursive;
-}
-.presentation p{
-    color: #13151ca2;
-    padding: 20px 0 40px;
-    font-weight: 500;
-    font-size: 20px;
-}
-.what-i-do{
-    color:white; 
-    background-color:#13151c;
-    border-radius: 100px;
-    padding: 15px 40px;
-    text-decoration: none;
-}
-.what-i-do:hover{
-   background-color: #13151ca2;
-   color:white; 
-}
-.presentation-box-order{
-    display: flex;
-    margin-top: 70px;  
-    justify-content: space-around; 
-    align-items: center;
-    width: 1100px; 
-}
-.presentation-block{
-    width: 40%;
-}
-.main-image{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-}
-.main-image img{
-    width: 80%;
-}
-.presentation{
-    padding: 150px 60px 130px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around; 
-}
+
   /* about section ends*/
   /* skills section*/
 .habilities{
@@ -254,7 +203,6 @@ a{
     text-align: left;
     padding: 80px 60px;
     width: 1100px; 
-    height: 690px; 
     border: 1px solid #d0d1de;
     border-radius: 8px;
     background-color:#d0d1de;
@@ -308,10 +256,16 @@ input{
     border-radius: 40px;
     padding: 10px 10px;
 }
+.name-field,
+.lastname-field {
+    width: 47%;
+}
 .email-field {
     margin: 10px 0;
 }
-.email-field input{
+.form-content input
+
+{
     width: 100%;
 }
 .button-contact{
@@ -349,9 +303,27 @@ input{
 }
 .footer-icons-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
+}
+.footer-icons-container i{
+    width: 40px;
+    margin: 0 15px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #545561;
+}
+/* .footer-icons-container a{
+    padding: 5px;
+} */
+.footer-icons-container i:hover{
+    background-color: #545561;
+    color: #ffffff;
 }
 .footer-items{
     margin: 0 10px; 
@@ -359,12 +331,36 @@ input{
 .list-for-footer{
  display: flex;
  color: white;
-}
-.Favicon i{
-    color: white;
+ margin: 30px 0;
 }
 .footer-container{
     text-align: center;
 }
   /* Footer with links ends*/
+/*media query*/
 
+@media (min-width: 500px) {
+    .nickname{
+        font-size: 40px;
+    } 
+}
+@media (max-width: 900px) {
+
+}
+@media (min-width: 1100px) {
+    header{
+        visibility: visible;
+    }
+    .presentation-box-order{
+        flex-direction: row;
+    }
+    .presentation-block{
+        width: 40%;
+        text-align: start;
+    }
+    .main-image{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+}
