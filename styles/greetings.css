@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
 .presentation{
     padding: 80px 20px 80px;
     margin: 90px 0 0;
+    justify-content: center;
+    min-width: 400px; 
+    min-height: 360px; 
 }
 .presentation-box-order{
     display: flex;
@@ -15,7 +24,7 @@
 }
 .presentation-block p{
     margin: 20px 0 40px;
-    font-size: 36px;
+    font-size: 16px;
 }
 .greetings,
 .nickname{
@@ -55,5 +64,22 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .presentation-block{
+        width: 40%;
+        display: block;
+        text-align: inherit;
+    }
+    .presentation-box-order{
+        flex-direction: row;
+    }
+    .greetings,
+    .nickname{
+        align-items: start;
+    }
+    .main-image{
+        width: 40%;
+        display: flex;
+        justify-content: center;
     }
 }

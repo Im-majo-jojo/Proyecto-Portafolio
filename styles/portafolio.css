@@ -287,16 +287,5 @@ input{
     header{
         visibility: visible;
     }
-    .presentation-box-order{
-        flex-direction: row;
-    }
-    .presentation-block{
-        width: 40%;
-        text-align: start;
-    }
-    .main-image{
-        width: 40%;
-        display: flex;
-        justify-content: center;
-    }
+
 }
