@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 150px 60px 130px;
     justify-content: space-around;
     background-color: rgb(247, 247, 247);
     display: flex;
@@ -25,15 +24,15 @@
 }
 .grid-buttons{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     border: 1px solid #aeaeb1;
     border-radius: 8px;
     background-color:white;
     padding: 25px;
     margin: 10px;
-    width: 400px; 
-    height: 360px; 
-    justify-content: space-evenly;   
+    width: 260px;  
+    justify-content: center;   
 }
 .grid-buttons p{
     font-size: 30px;
@@ -42,6 +41,11 @@
 .grid-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.colored{
+    font-size: 2.7em;
+    display: block;
 }
 /*.habilities{
     padding: 150px 60px 130px;
@@ -105,19 +109,47 @@ i{
 .grid-buttons p{
     margin:5px 0;
 }*/
-@media (min-width: 350px) {
-
-    /* .big-buttons-for-skills{
-        display: grid;
-        margin: 50px 0;  
-        grid-template-columns: 1fr 1fr;     
-    } */
-}
-@media (max-width: 380px) {
-    .mySkills{
-
+@media (max-width: 350px) {
+    .colored {
+    font-size: 2.5em;
+    }
+    .grid-buttons{
+        max-width: 200px;
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 450px) {
+    .colored {
+        font-size: 2.5em;
+    }
+}
+@media (min-width: 580px) {
+    .grid-buttons{
+        margin: 0.5px;
+        padding: 10px;
+    }
+    .colored {
+        font-size: 3em;
+    }
+}
+@media (max-width: 900px){
+    .grid-buttons{
+        margin: 5px;
+        padding: 10px;
+    }
+    .colored {
+        font-size: 3em;
+    }
+}
+@media (min-width: 900px){
+    .big-buttons-for-skills{
+        max-width: 1000px;
+    }
+    .grid-buttons{
+        margin: 5px;
+        padding: 10px;
+    }
+    .colored {
+        font-size: 3em;
+    }
 
 }
