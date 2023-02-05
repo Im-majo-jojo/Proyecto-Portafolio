@@ -1,4 +1,4 @@
- *{
+/* *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -8,7 +8,7 @@
    background-color: #fffbe6;
  }
  /* header and nav bar */
- header{
+ /*header{
     background-color: #fffbe6;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 25px 0;
@@ -61,26 +61,10 @@
 
   /* skills section ends*/
   /* Quote Section */
-.quote-section{
-    display: flex;
-    padding: 110px 40px 130px ;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    background-color: #13151c;
-    font-size: 25px;
-}
-blockquote{
-    margin: 30px 40px;
-    font-size: 20px;
-}
-.someone{
-    margin-top: 50px;
-    color: #ffffff;
-}
+
   /* Quote Section ends*/
   /* projects section */
-.projects-box-grid{
+/*.projects-box-grid{
     padding: 140px 60px 130px;
     text-align: center;
   }
@@ -127,7 +111,7 @@ a{
     color: #000000;
 }
   /* projects section ends*/
-  /* Contact and form section */ 
+  /* Contact and form section */ /*
 .contact-box-section{
     display: flex;
     justify-content: center;
@@ -177,7 +161,7 @@ a{
     color: white;
 } 
     /*form*/
-label{
+/*label{
     display: flex;
     font-size: 20px;
     justify-content: start;
@@ -224,7 +208,7 @@ input{
 }
   /* Contact and form section ends*/
   /* Footer with links */
-.footer{
+/*.footer{
     background-color: #545561;
     flex-direction: column;
     justify-content: center;
@@ -260,7 +244,7 @@ input{
 /* .footer-icons-container a{
     padding: 5px;
 } */
-.footer-icons-container i:hover{
+/*.footer-icons-container i:hover{
     background-color: #545561;
     color: #ffffff;
 }
@@ -277,7 +261,7 @@ input{
 }
   /* Footer with links ends*/
 /*media query*/
-
+/*
 @media (min-width: 500px) {
 }
 @media (max-width: 900px) {

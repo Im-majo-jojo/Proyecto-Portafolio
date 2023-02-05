@@ -10,6 +10,9 @@
 }
 .quote-section{
     display: flex;
+    width: 100%;
+    padding: 60px 30px 40px;
+
 }
 blockquote{
     margin: 30px 40px;
@@ -23,6 +26,5 @@ blockquote{
     .quote-section{
         padding: 80px 20px;
         width: 100%;
-        font-size: 0;
     }
 }
