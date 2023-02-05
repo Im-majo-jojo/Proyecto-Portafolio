@@ -1,58 +1,23 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+.title-section{
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+.description-of-section{
+    margin: 30px 0;
+}/* 
  body{
    background-color: #fffbe6;
  }
  /* header and nav bar */
- /*header{
-    background-color: #fffbe6;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 25px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    visibility: hidden;
-}
- .div-nav{
-    width: 100%;
-    max-width: 1350px;
-}
- .list-nav{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-}
- .item-nav{
-    list-style: none;
-    padding: 0 15px;
-}
- .linked{
-    color: #000000;
-    line-height: 2.5;
-    padding: 0 10px;
-    font-weight: 300;
-}
- .linked:hover{
-    color: #13151ca2;
-}
- .selected{
-    color:#fffbe6; 
-    background-color:#13151c;
-    border-radius: 100px;
-    padding: 0 30px;
-}
- .selected:hover{
-   background-color:  #aeaeb1;
-   color:#fffbe6; 
-}
-.list-nav a {
-   text-decoration: none;
-   display: block;
-}
+ /*
   /* header and nav bar ends*/
   /* about section*/
 
@@ -63,54 +28,7 @@
   /* Quote Section */
 
   /* Quote Section ends*/
-  /* projects section */
-/*.projects-box-grid{
-    padding: 140px 60px 130px;
-    text-align: center;
-  }
-.project-description-text{
-   display: flex;
-   flex-direction: column;
-   color: #000000;
-}
-.project-description-text p{
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-}
-.projects-grid{
-    display: flex;
-    justify-content: center;
-}
-.big-buttons-grid-projects{
-    display: grid;
-    margin: 50px 0;  
-    grid-template-columns: 1fr 1fr;     
-}
-.grid-projects-names{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #aeaeb1;
-    border-radius: 8px;
-    background-color:white;
-    padding: 25px;
-    margin: 10px;
-    width: 340px; 
-    height: 330px; 
-    justify-content: space-between;   
- }
-.grid-projects-names:hover{ 
-    border: 1px solid #d0d1de;
-    color: #989797;
-}
-.project-title{
-    font-weight: bold;
-}
-a{
-    text-decoration: none;
-    color: #000000;
-}
-  /* projects section ends*/
+ 
   /* Contact and form section */ /*
 .contact-box-section{
     display: flex;
@@ -267,9 +185,4 @@ input{
 @media (max-width: 900px) {
 
 }
-@media (min-width: 1100px) {
-    header{
-        visibility: visible;
-    }
 
-}
