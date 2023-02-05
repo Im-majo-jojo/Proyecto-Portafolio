@@ -1,0 +1,111 @@
+.contact-box-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 60px 80px;
+}
+.columns-of-contact-section{
+    display: flex;
+    text-align: left;
+    padding: 80px 60px; 
+    border: 1px solid #aca9a948;
+    box-shadow: inset -10px -10px 15px #ffffff80, 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
+    border-radius: 15px;
+    justify-content: space-between;
+}
+/*
+.contact-box-section{
+    display: flex;
+    justify-content: center;
+    padding: 170px 60px 130px;
+    text-align: center;    
+}
+.contact-form{
+    align-content: center;
+}
+.columns-of-contact-section{
+    display: flex;
+    text-align: left;
+    padding: 80px 60px;
+    width: 1100px; 
+    border: 1px solid #d0d1de;
+    border-radius: 8px;
+    background-color:#d0d1de;
+    justify-content: space-between;
+}
+.information-section{
+    width: 45%;
+}
+.form-fields{
+    width: 45%;
+}
+.contact-section-links{
+    margin-top: 40px;  
+}
+.socialMedia a, li{
+    color: #8f909c;
+    list-style: none;
+    text-decoration: none; 
+    margin: -10px 0;
+}
+.socialMedia i{
+    padding: 5px;
+    color: #989797;
+} 
+.icon-and-list-hover:hover i
+ {
+    color: white;
+    background-color: #545561;
+    border-radius: 50%;
+}
+.icon-and-list-hover:hover
+{
+    color: white;
+} 
+    /*form*/
+/*label{
+    display: flex;
+    font-size: 20px;
+    justify-content: start;
+    margin: 10px;
+}
+.fields-name-and-lastname {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+input{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    padding: 10px 10px;
+}
+.name-field,
+.lastname-field {
+    width: 47%;
+}
+.email-field {
+    margin: 10px 0;
+}
+.form-content input
+
+{
+    width: 100%;
+}
+.button-contact{
+    background-color:#13151c;
+    border: 1px solid #13151c;
+    border-radius: 100px;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+.button-contact a{
+    color: #ffffff;
+    font-weight: 500;
+}
+.button-contact:hover{
+   background-color: #13151ca2;
+   color:white; 
+}
