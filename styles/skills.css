@@ -10,7 +10,7 @@
     min-width: 260px; 
     min-height: 160px; 
 }
-/* grid part */
+/* grid part*/
 .big-buttons-for-skills{
     display: flex;
     flex-wrap: wrap;
@@ -100,5 +100,4 @@
     .colored {
         font-size: 3em;
     }
-
 }

@@ -21,31 +21,38 @@ header{
     padding: 0 15px;
 }
  .linked{
-    color: #000000;
+    color:#000000; 
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
+    border-radius: 100px;
+    padding: 0 30px;
     line-height: 2.5;
-    padding: 0 10px;
     font-weight: 300;
 }
  .linked:hover{
-    color: #13151ca2;
+   box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.26), 5px 5px 9px rgba(85, 94, 109, 0.3);  
+   color:#000000; 
 }
  .selected{
-    color:#fffbe6; 
-    background-color:#13151c;
+    color:#000000; 
+    background-color: #b9b9b9;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
     border-radius: 100px;
     padding: 0 30px;
 }
  .selected:hover{
-   background-color:  #aeaeb1;
-   color:#fffbe6; 
+   background-color: #b9b9b9;
+   box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.26), 5px 5px 9px rgba(85, 94, 109, 0.3);  
+   color:#000000; 
 }
 .list-nav a {
    text-decoration: none;
    display: block;
 }
+/* media queries*/
 @media (min-width: 1100px) {
     header{
         visibility: visible;
     }
-
 }
