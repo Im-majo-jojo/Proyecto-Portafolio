@@ -6,11 +6,10 @@
     color: white;
     background-color: #13151c;
     font-size: 25px;
+    position: relative;
 }
 .quote-section{
     display: flex;
-    width: max-content;
-    height: max-content;
 }
 blockquote{
     margin: 30px 40px;
@@ -24,5 +23,6 @@ blockquote{
     .quote-section{
         padding: 80px 20px;
         width: 100%;
+        font-size: 0;
     }
 }
