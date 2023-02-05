@@ -1,4 +1,4 @@
-/*.habilities {
+.habilities {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -19,7 +19,7 @@
 .description-of-section{
     margin: 30px 0;
 }
-/* grid part *//*
+/* grid part */
 .big-buttons-for-skills{
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +56,7 @@
     border: 1px solid  #13151ca2;
     color: #aeaeb1;
 }
-/* media queries*//*
+/* media queries*/
 @media (max-width: 350px) {
     .colored {
     font-size: 2.5em;
