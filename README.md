@@ -1,4 +1,4 @@
-# Hi there!  :sparkles:
+# Hi there! :sparkles:
 ## This is Michi-Dev :black_heart:
 
 ######  :paw_prints: newHere
@@ -8,11 +8,42 @@
 ######  :sunny: sunshineLover
 
 ######  :cat: crazyCatLady 
+------
+### Introduccion: :owl:
+Proyecto **portafolio personal** propuesto por Ada. Este sitio sirve como introducción personal y presentación de los proyectos que voy a ir haciendo, de modo que cualquiera que acceda al mismo, pueda ver lo que voy armado.
 
-------------
-### My skills
+En esta primera entrega del proyecto desarrollé la estructura, los estilos y las secciones principales. 
+### Criterios de aceptacion: :thumbsup:
+Los requisitos mínimos tenidos en cuenta en este proyecto:
+- Se respetó el siguiente [diseño](https://frontend-proyecto-portfolio.adaitw.org/ "diseño")
+- se modificaron colores, tipografías e imágenes
+- El portfolio cuenta con:
+	- Header con links de navegación
+	- Sección de presentación
+	- Sección de habilidades
+	- Cita
+	- Sección de proyectos con grilla de proyectos (*)
+	- Sección y formulario de contacto
+	- Footer con links de navegación y links de contacto
+- Al clickear en los links de navegación, llegas a la sección correspondiente
+- Al clickear en los links de contacto, llegas a la página externa correspondiente
+- El portfolio tiene un diseño responsivo y se ve correctamente en distintos dispositivos (especialmente mobile)
+- El portfolio está deployado y es accesible desde una URL
+- El repositorio en GitHub tiene un readme adecuado
 
-<img src="https://img.shields.io/badge/-Visual%20Studio%20Code-23A9F2?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/> <img src="https://img.shields.io/badge/-Github-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-F44D27?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
+### Recursos: :cactus:
+- [Imagenes](https://undraw.co/illustrations "Imagenes")
+- [Iconos](https://devicon.dev/ "Iconos")
 
-### You can reach me:
-[![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/Im-majo-jojo/Proyecto-Portafolio/edit/master/README.md) [![My Skills](https://skillicons.dev/icons?i=instagram)]() [![My Skills](https://skillicons.dev/icons?i=twitter)]() [![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.com/channels/Im-majo-jojo#2138) [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/maria-jose-g-21ab84188/)
+### Enlace: :lobster:
+Dale click al siguiente enlace para acceder 
+##### Proyecto Portafolio 
+
+### Herramientas usadas: :toolbox:
+
+![My Skills](https://skillicons.dev/icons?i=vscode,github,git,html,css,md) 
+### You can reach me at: :fries:
+
+[![Twitter Badge](https://img.shields.io/badge/-@im_majo_jojo-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Ipenywis)](https://twitter.com/im_majo_jojo) [![Mail Badge](https://img.shields.io/badge/-@im_majo_jojo-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/islempenywis) [![Linkedin Badge](https://img.shields.io/badge/-Maria_Garces-0e76a8?style=flat&labelColor=0e76a8&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-jose-g-21ab84188/) [![Mail Badge](https://img.shields.io/badge/-mj.garcest-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:mj.garcest@gmail.com)
+
+
