@@ -12,7 +12,7 @@
 ### Introduccion: :owl:
 Proyecto **portafolio personal** propuesto por Ada. Este sitio sirve como introducción personal y presentación de los proyectos que voy a ir haciendo, de modo que cualquiera que acceda al mismo, pueda ver lo que voy armado.
 
-En esta primera entrega del proyecto desarrollé la estructura, los estilos y las secciones principales. 
+En esta primera entrega del proyecto; desarrollé la estructura, los estilos y las secciones principales. 
 ### Criterios de aceptacion: :thumbsup:
 Los requisitos mínimos tenidos en cuenta en este proyecto:
 - Se respetó el siguiente [diseño](https://frontend-proyecto-portfolio.adaitw.org/ "diseño")
