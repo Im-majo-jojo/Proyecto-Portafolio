@@ -78,6 +78,10 @@ label{
    color:#000000; 
    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
+.information-section .title-section{
+    display: flex;
+
+}
 /*media queries*/
 @media (min-width: 600px){
     .contact-section-links{
