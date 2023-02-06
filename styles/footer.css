@@ -14,8 +14,7 @@
     color: white;
 }
 .footer-list-of-items{
-    display: flex; 
-    visibility: hidden;
+    display: none; 
 }
 .footer-items{
     width: 50%;
@@ -52,10 +51,10 @@
 }
 /* Media queries*/
 @media (min-width: 700px) {
-    .footer-list-of-items{
-        visibility: visible;
-    }
     .list-for-footer-icons{
         margin-top: 40px;
+    }
+    .footer-list-of-items{
+        display: flex; 
     }
 }
