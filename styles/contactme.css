@@ -1,3 +1,7 @@
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
 .contact-box-section{
     display: flex;
     justify-content: center;
@@ -23,7 +27,7 @@
 }
 .socialMedia i{
     padding: 8px;
-    margin-right: 10px;
+    margin-right: 5px;
     border-radius: 50%;
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 } 
@@ -35,6 +39,7 @@
 .form-content{
     display: flex;
     flex-direction: column;
+    margin-top: -20px;
 }
 .name-field,
 .lastname-field,
@@ -42,7 +47,7 @@
 .mesaje-field{
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    padding: 5px;
 }
 input,
 textarea{
@@ -51,8 +56,13 @@ textarea{
     border-radius: 15px;
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }
+textarea{
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+    
+}
 label{
-    padding: 8px 0;
+    padding: 4px 0;
 }
 .submit-button{
     color:#000000; 
@@ -117,9 +127,28 @@ input{
 
 /*media queries*/
 @media (min-width: 600px){
+    .contact-section-links{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        width: 100%;
+    }
+    .socialMedia{
+        width: 50%;
+    }
+    .socialMedia i{
+        margin-right: 10px;
+    }
     .fields-name-and-lastname{
         display: flex;
         flex-direction: row;
+        width: 100%;
+    }
+    .name-field{
+        width: 50%;
+    }
+    .lastname-field{
+        width: 50%;
     }
 }
 @media (min-width: 900px){
@@ -128,5 +157,17 @@ input{
     }
     .form-fields{
         width: 45%;
+    }
+    .columns-of-contact-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-section-links{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .socialMedia{
+        width: 100%;
     }
 }
