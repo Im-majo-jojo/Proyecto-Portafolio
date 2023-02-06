@@ -1,4 +1,5 @@
 .footer{
+    width: 100%;
     background-color: #13151c;
     display: flex;
     flex-direction: column;
@@ -17,7 +18,8 @@
     visibility: hidden;
 }
 .footer-items{
-    padding: 15px;
+    width: 50%;
+    padding: 10px;
 }
 /*footer icons*/
 .list-for-footer-icons{
@@ -37,6 +39,10 @@
 }
 .social-media-footer:hover{
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+.links-footer-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Media queries*/
 @media (min-width: 700px) {
