@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 170px 60px 130px;;
+    padding: 120px 60px 110px;;
 }
 .columns-of-contact-section{
     display: flex;
@@ -58,8 +58,7 @@ textarea{
 }
 textarea{
     padding-bottom: 60px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
 label{
     padding: 4px 0;
@@ -77,54 +76,6 @@ label{
    color:#000000; 
    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
-
-    /*form*/
-/*label{
-    display: flex;
-    font-size: 20px;
-    justify-content: start;
-    margin: 10px;
-}
-.fields-name-and-lastname {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-}
-input{
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 40px;
-    padding: 10px 10px;
-}
-.name-field,
-.lastname-field {
-    width: 47%;
-}
-.email-field {
-    margin: 10px 0;
-}
-.form-content input
-
-{
-    width: 100%;
-}
-.button-contact{
-    background-color:#13151c;
-    border: 1px solid #13151c;
-    border-radius: 100px;
-    padding: 15px 40px;
-    text-decoration: none;
-}
-.button-contact a{
-    color: #ffffff;
-    font-weight: 500;
-}
-.button-contact:hover{
-   background-color: #13151ca2;
-   color:white; 
-}
-
 /*media queries*/
 @media (min-width: 600px){
     .contact-section-links{
