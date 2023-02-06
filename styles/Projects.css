@@ -2,6 +2,7 @@
 .projects-box-grid{
     padding: 140px 60px 130px;
     background-color: #dde1e7;
+    width: 100%;
   }
 .projects-grid{
     padding: 10px;
@@ -22,8 +23,8 @@
     background-color:#dde1e7;
     padding: 25px; 
     text-decoration: none;
-    width: 400px;
-    height: 360px;
+    max-width: 400px;
+    max-height: 360px;
     justify-content: center;
     display: flex;
     align-items: center;
