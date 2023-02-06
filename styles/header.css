@@ -22,28 +22,26 @@ header{
 }
  .linked{
     color:#000000; 
-    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
-    inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
     border-radius: 100px;
     padding: 0 30px;
     line-height: 2.5;
     font-weight: 300;
 }
  .linked:hover{
-   box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.26), 5px 5px 9px rgba(85, 94, 109, 0.3);  
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
    color:#000000; 
 }
  .selected{
     color:#000000; 
     background-color: #b9b9b9;
-    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
-    inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
     border-radius: 100px;
     padding: 0 30px;
 }
  .selected:hover{
    background-color: #b9b9b9;
-   box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.26), 5px 5px 9px rgba(85, 94, 109, 0.3);  
+   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
    color:#000000; 
 }
 .list-nav a {

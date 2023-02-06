@@ -2,25 +2,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 60px 80px;
+    padding: 170px 60px 130px;;
 }
 .columns-of-contact-section{
     display: flex;
+    flex-direction: column;
     text-align: left;
     padding: 80px 60px; 
-    border: 1px solid #aca9a948;
+    background-color: #ecedf0;
     box-shadow: inset -10px -10px 15px #ffffff80, 
     inset 10px 10px 15px rgba(70, 70, 70, 0.12); 
     border-radius: 15px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
 }
+.contact-section-links{
+    
+}
+.socialMedia a, li{
+    color: #000000;
+    list-style: none;
+    text-decoration: none; 
+    padding: 5px;
+}
+.socialMedia i{
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+} 
+.icon-and-list-hover:hover i
+ {
+    border-radius: 50%;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
+.icon-and-list-hover:hover{
+    color: #a7a8aa;
+} 
 /*
-.contact-box-section{
-    display: flex;
-    justify-content: center;
-    padding: 170px 60px 130px;
-    text-align: center;    
-}
+
 .contact-form{
     align-content: center;
 }
@@ -34,12 +53,7 @@
     background-color:#d0d1de;
     justify-content: space-between;
 }
-.information-section{
-    width: 45%;
-}
-.form-fields{
-    width: 45%;
-}
+
 .contact-section-links{
     margin-top: 40px;  
 }
@@ -108,4 +122,12 @@ input{
 .button-contact:hover{
    background-color: #13151ca2;
    color:white; 
+}
+
+Media queries
+.information-section{
+    width: 45%;
+}
+.form-fields{
+    width: 45%;
 }
